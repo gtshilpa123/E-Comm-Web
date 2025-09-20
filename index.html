@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="player-container">
+      <!-- Theme toggle -->
+      <label> <input type="checkbox" id="theme-checkbox" /> Dark </label>
+
+      <!-- Genre Filter -->
+      <div class="filter">
+        <label for="genre-select">Filter by Genre:</label>
+        <select id="genre-select">
+          <option value="">All</option>
+          <option value="pop">Pop</option>
+          <option value="rock">Rock</option>
+          <option value="hip-hop">Hip Hop</option>
+        </select>
+      </div>
+
+      <!-- All Songs List -->
+      <div class="all-songs-section">
+        <h3>All Songs</h3>
+        <ul id="all-songs"></ul>
+      </div>
+
+      <!-- Current Song Card -->
+      <div class="card">
+        <img id="song_image" src="" alt="Song Image" width="200" />
+        <div id="card-content">
+          <h2>Song Name</h2>
+          <p>Artist</p>
+        </div>
+        <div class="controls">
+          <button id="prev-button">⏮</button>
+          <button id="next-button">⏭</button>
+        </div>
+
+        <!-- Audio Player -->
+        <audio id="audioPlayer" controls>
+          <source id="audioSource" src="" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+      <button id="add-playlist-button" onclick="addtoPlaylist()">
+        Add to Playlist
+      </button>
+
+      <!-- Playlist Section -->
+      <div class="playlist-section">
+        <h3>Create Playlist</h3>
+        <input
+          type="text"
+          id="playlist-input"
+          placeholder="Enter playlist name"
+        />
+        <button id="create-playlist-button">Create</button>
+
+        <h3>All Playlists</h3>
+        <ul id="all-playlists"></ul>
+
+        <h3>Current Playlist</h3>
+        <ul id="current-playlist"></ul>
+      </div>
+    </div>
+
+    <script src="/index.js"></script>
+  </body>
+</html>
