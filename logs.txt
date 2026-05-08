@@ -1,0 +1,11 @@
+{"level":"info","message":"/ - undefined","service":"request-logging"}
+{"level":"info","message":"/favicon.ico - undefined","service":"request-logging"}
+{"level":"info","message":"/.well-known/appspecific/com.chrome.devtools.json - undefined","service":"request-logging"}
+{"level":"info","message":"/ - undefined","service":"request-logging"}
+{"level":"info","message":"/.well-known/appspecific/com.chrome.devtools.json - undefined","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - undefined","service":"request-logging"}
+{"level":"info","message":"/.well-known/appspecific/com.chrome.devtools.json - undefined","service":"request-logging"}
+{"level":"info","message":"/users/signup - undefined","service":"request-logging"}
+{"level":"info","message":"/.well-known/appspecific/com.chrome.devtools.json - undefined","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - undefined","service":"request-logging"}
+{"level":"info","message":"/.well-known/appspecific/com.chrome.devtools.json - undefined","service":"request-logging"}
